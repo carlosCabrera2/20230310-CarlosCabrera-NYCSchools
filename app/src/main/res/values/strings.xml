@@ -16,4 +16,25 @@
     <string name="writing">Writing</string>
     <string name="phoneicon">phoneIcon</string>
     <string name="takers">Takers</string>
+    <string name="school_name">School Name</string>
+    <string name="website">Website:</string>
+    <string name="website_url">Website URL</string>
+    <string name="email">Email:</string>
+    <string name="emailContent">Email</string>
+    <string name="phone">Phone #</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="fax">Fax #</string>
+    <string name="fax_number">Fax Number</string>
+    <string name="start">Start:</string>
+    <string name="start_time">Start Time</string>
+    <string name="end">End:</string>
+    <string name="end_time">End Time</string>
+    <string name="addressTitle">Address:</string>
+    <string name="address">Address</string>
+    <string name="city">City</string>
+    <string name="ny">NY,</string>
+    <string name="zip_code">Zip code</string>
+    <string name="average_test_takers">Average Test Takers</string>
+    <string name="sat_information">SAT Information</string>
+    <string name="overview">Overview</string>
 </resources>
