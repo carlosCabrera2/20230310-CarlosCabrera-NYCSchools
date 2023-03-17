@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+   >
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_school_name"
+            android:text="School Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            >
+                <TableRow
+                    android:background="#6FB4BCE1"
+                    >
+
+                        <TextView
+                            android:text="Webiste: "
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="15dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@color/purple_200"
+                            android:textColor="@color/white"/>
+
+                            <TextView
+                                android:id="@+id/tv_school_website"
+                                android:text="Website URL"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="13sp"/>
+
+                            <TextView
+                                android:text="Email: "
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="15dp"
+                                android:layout_marginEnd="2dp"
+                                android:background="@color/purple_200"
+                                android:textColor="@color/white"/>
+
+
+                             <TextView
+                                android:id="@+id/tv_school_email"
+                                android:text="Email"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="15sp"/>
+
+                </TableRow>
+
+            <TableRow
+                android:background="#6FB4BCE1"
+                >
+                        <TextView
+                            android:text="Phone # "
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="15dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@color/purple_200"
+                            android:textColor="@color/white"/>
+
+                        <TextView
+                            android:id="@+id/tv_school_phone_number"
+                            android:text="Phone Number"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="15sp"
+                            android:layout_marginEnd="2dp"/>
+
+                        <TextView
+                            android:text="Fax # "
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="15dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@color/purple_200"
+                            android:textColor="@color/white"/>
+
+                        <TextView
+                            android:id="@+id/tv_school_fax_number"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:text="Fax Number"
+                            android:textSize="15sp"
+                            />
+            </TableRow>
+
+            <TableRow
+                android:background="#6FB4BCE1">
+                <TextView
+                    android:text="Start: "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:layout_marginEnd="2dp"
+                    android:background="@color/purple_200"
+                    android:textColor="@color/white"/>
+
+                <TextView
+                    android:id="@+id/tv_school_start_time"
+                    android:text="Start Time"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="13sp"
+                    />
+
+                <TextView
+                    android:text="End: "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:layout_marginEnd="2dp"
+                    android:background="@color/purple_200"
+                    android:textColor="@color/white"/>
+
+                <TextView
+                    android:id="@+id/tv_school_end_time"
+                    android:text="End Time"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="13sp"/>
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#6FB4BCE1"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            >
+                        <TextView
+                            android:text="Address: "
+                            android:textSize="15sp"
+                            android:textColor="@color/white"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/purple_200"/>
+
+                        <TextView
+                            android:id="@+id/tv_school_address"
+                            android:text="Address"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="13sp"
+                            android:layout_marginEnd="3dp"
+                            android:layout_marginStart="2dp"/>
+
+                        <TextView
+                            android:id="@+id/tv_school_city"
+                            android:text="City"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="13sp"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginEnd="3dp"/>
+
+                        <TextView
+                            android:id="@+id/tv_school_state"
+                            android:text="NY,"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="13sp"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginEnd="3dp" />
+
+                        <TextView
+                            android:id="@+id/tv_school_zipcode"
+                            android:text="Zip code"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="13sp"
+                            android:layout_marginStart="1dp"
+                            />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tv_overview_paragraph"
+            android:text="Overview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            />
+
+        <TextView
+            android:text="SAT Information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="15dp"
+            />
+
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            >
+
+            <TableRow
+                android:background="@color/purple_200"
+                android:padding="5dp">
+
+                <TextView
+                    android:text="@string/school_subject"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:text="@string/score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:background="#6FB4BCE1"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/reading"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvReadingScore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/_300"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:background="#6FB4BCE1"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/math"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvMathScore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/_450"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:background="#6FB4BCE1"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/writing"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvWritingScore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/_230"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow
+                android:background="@color/white"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Average Test Takers"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvTakers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/_230"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </TableRow>
+        </TableLayout>
+
+
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</ScrollView>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">20230310-CarlosCabrera-NYCSchools</string>
+    <string name="toolbar_title">NYC Schools List</string>
+    <string name="methodology_10">Methodology 10</string>
+    <string name="math_5">Math 5</string>
+    <string name="ecology_9">Ecology 9</string>
+    <string name="school_subject">School Subject</string>
+    <string name="score">Avg Score</string>
+    <string name="reading">Reading</string>
+    <string name="_300">300</string>
+    <string name="math">Math</string>
+    <string name="_450">450</string>
+    <string name="trishika_dasari">Trishika Dasari</string>
+    <string name="guntur">Guntur</string>
+    <string name="_230">230</string>
+    <string name="writing">Writing</string>
+    <string name="phoneicon">phoneIcon</string>
+    <string name="takers">Takers</string>
+</resources>
